@@ -81,8 +81,8 @@ function sliderHomepage () {
     // var owl = $('#slider')
 
     $('#slider').owlCarousel({
-      autoPlay: 3000,
-      items: 4,
+      autoPlay: 10000,
+      items: 3,
       itemsDesktopSmall: [900, 3],
       itemsTablet: [600, 3],
       itemsMobile: [500, 2]
@@ -110,7 +110,7 @@ function sliders () {
     $('.project').owlCarousel({
       navigation: true, // Show next and prev buttons
       navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      slideSpeed: 300,
+      slideSpeed: 600,
       paginationSpeed: 400,
       autoPlay: true,
       stopOnHover: true,

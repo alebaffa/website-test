@@ -3,6 +3,6 @@ title: "Events"
 description: >
   <ul class="list-style-none">
     <li>The importance of mindfulness in business and leadership with speakers from around the world.</li>
-    <li>Check out our <a href="{{ .Site.BaseURL }}/schedule/">next events</a></li>
+    <li>Check out our <a href="/schedule/">next events</a></li>
   </ul>
 image: "img/carousel/event-1.png"
