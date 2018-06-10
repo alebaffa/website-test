@@ -1163,11 +1163,6 @@ fieldset[disabled] .btn-template-primary.active {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
-  .home-carousel .right {
-    text-align: right;
-  }
-}
 .home-carousel h1,
 .home-carousel h2,
 .home-carousel h3,

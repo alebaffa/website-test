@@ -1149,6 +1149,10 @@ fieldset[disabled] .btn-template-primary.active {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
+
+.padding-left {
+  padding-left: 35px;
+}
 .home-carousel .owl-theme .owl-controls .owl-page span {
   background: #666;
 }
@@ -1161,11 +1165,6 @@ fieldset[disabled] .btn-template-primary.active {
 @media (max-width: 767px) {
   .home-carousel {
     text-align: center !important;
-  }
-}
-@media (min-width: 992px) {
-  .home-carousel .right {
-    text-align: right;
   }
 }
 .home-carousel h1,
