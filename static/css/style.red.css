@@ -1734,7 +1734,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar {
   position: relative;
-  background: #da4d4d;
+  background: #999999;
   padding: 20px 0;
 }
 .bar-news {
