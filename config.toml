@@ -16,9 +16,9 @@ paginate = 10
 
 # Main menu
 [[menu.main]]
-    name = "Who We Are"
-    identifier = "faq"
-    url  = "/faq/"
+    name = "About"
+    identifier = "about"
+    url  = "/about/"
     weight = 1
 
 [[menu.main]]
@@ -28,7 +28,7 @@ paginate = 10
 
 [[menu.main]]
     name = "Media mentions"
-    url  = "/contact/"
+    url  = "/media/"
     weight = 3
 
 [[menu.main]]
