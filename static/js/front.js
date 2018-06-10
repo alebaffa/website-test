@@ -81,7 +81,7 @@ function sliderHomepage () {
     // var owl = $('#slider')
 
     $('#slider').owlCarousel({
-      autoPlay: 3000,
+      autoPlay: 100,
       items: 3,
       itemsDesktopSmall: [900, 3],
       itemsTablet: [600, 3],
@@ -94,7 +94,8 @@ function sliderHomepage () {
 function sliders () {
   if ($('.owl-carousel').length) {
     $('.customers').owlCarousel({
-      items: 6,
+      autoPlay: 300,
+      items: 3,
       itemsDesktopSmall: [990, 4],
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]
@@ -122,9 +123,7 @@ function sliders () {
     $('.homepage').owlCarousel({
       navigation: false, // Show next and prev buttons
       navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      slideSpeed: 2000,
-      paginationSpeed: 1000,
-      autoPlay: true,
+      autoPlay: 4000,
       stopOnHover: true,
       singleItem: true,
       lazyLoad: false,
