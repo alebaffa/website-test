@@ -27,12 +27,12 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
-    name = "Media mentions"
+    name = "Media"
     url  = "/media/"
     weight = 3
 
 [[menu.main]]
-    name = "Events schedule"
+    name = "Events"
     url  = "/schedule/"
     weight = 4
 
