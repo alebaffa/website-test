@@ -15,37 +15,31 @@ paginate = 10
 [menu]
 
 # Main menu
-
-[[menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 1
-
 [[menu.main]]
     name = "Who We Are"
     identifier = "faq"
     url  = "/faq/"
-    weight = 2
+    weight = 1
 
 [[menu.main]]
     name = "News"
     url  = "/blog/"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "Media mentions"
     url  = "/contact/"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
     name = "Events schedule"
     url  = "/schedule/"
-    weight = 5
+    weight = 4
 
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 6
+    weight = 5
 
 # Top bar social links menu
 
