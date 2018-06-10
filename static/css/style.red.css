@@ -306,9 +306,7 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  text-decoration: underline;
   font-weight: bold;
-  letter-spacing: 0.08em;
   border-top: solid 5px transparent;
 }
 .navbar ul.nav > li > a:hover {
@@ -1181,7 +1179,7 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel h3,
 .home-carousel p,
 .home-carousel ul {
-  color: #fff;
+  color: #000;
 }
 .home-carousel h1 {
   font-weight: 700;
@@ -1202,10 +1200,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel ul,
 .home-carousel p {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 28px;
   padding: 0;
-  text-transform: uppercase;
   letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
@@ -1746,6 +1742,11 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: #da4d4d;
+  padding: 20px 0;
+}
+.bar-news {
+  position: relative;
+  padding: 60px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
