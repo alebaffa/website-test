@@ -306,9 +306,7 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  text-decoration: underline;
   font-weight: bold;
-  letter-spacing: 0.08em;
   border-top: solid 5px transparent;
 }
 .navbar ul.nav > li > a:hover {
@@ -1143,7 +1141,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel {
   position: relative;
-  background: url('../img/photogrid.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1182,7 +1179,7 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel h3,
 .home-carousel p,
 .home-carousel ul {
-  color: #fff;
+  color: #000;
 }
 .home-carousel h1 {
   font-weight: 700;
@@ -1203,11 +1200,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel ul,
 .home-carousel p {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 28px;
   padding: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
   .home-carousel ul,
@@ -1747,6 +1741,11 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: #da4d4d;
+  padding: 20px 0;
+}
+.bar-news {
+  position: relative;
+  padding: 60px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
@@ -2817,6 +2816,7 @@ fieldset[disabled] .btn-template-primary.active {
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 30px;
 }
 .navbar-collapse.in {
   overflow-y: auto;

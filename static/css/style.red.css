@@ -1202,7 +1202,6 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel p {
   font-size: 28px;
   padding: 0;
-  letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
   .home-carousel ul,
@@ -2817,6 +2816,7 @@ fieldset[disabled] .btn-template-primary.active {
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 30px;
 }
 .navbar-collapse.in {
   overflow-y: auto;

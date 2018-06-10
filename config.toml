@@ -38,9 +38,14 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
+    name = "Events schedule"
+    url  = "/schedule/"
+    weight = 5
+
+[[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 5
+    weight = 6
 
 # Top bar social links menu
 
@@ -83,24 +88,14 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "your@email.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>We are the Rakuten Mindfulness Network</p>"
+    copyright = "Copyright (c) 2018, Rakuten; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    address = "Rakuten Crimson House, 158-0094 1-14-1 Tamagawa, Setagaya-ku, Tokyo"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"

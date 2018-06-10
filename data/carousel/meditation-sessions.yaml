@@ -1,0 +1,8 @@
+weight: 3
+title: "Meditation sessions"
+description: >
+  <ul class="list-style-none">
+    <li>Regular internal meditation sessions open to all employees.</li>
+    <li>Join us in the <a href="{{ .Site.BaseURL }}/schedule/">next ones</a></li>
+  </ul>
+image: "img/carousel/meeting-room.png"

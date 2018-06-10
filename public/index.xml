@@ -77,6 +77,16 @@ Please feel free to contact us, our customer service center is working for you 2
     </item>
     
     <item>
+      <title>Event schedule</title>
+      <link>/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/schedule/</guid>
+      <description>Coming events
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam tincidunt mauris eu risus. Vestibulum auctor dapibus neque.  </description>
+    </item>
+    
+    <item>
       <title>Who We Are</title>
       <link>/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
