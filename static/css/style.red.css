@@ -724,6 +724,16 @@ fieldset[disabled] .btn-template-primary.active {
   color: #da4d4d;
   background-color: #ffffff;
 }
+.box-logo {
+  display: flex;
+  align-items:center;
+}
+.box-logo img {
+  width: 25%;
+}
+.box-logo h1 {
+  font-size: 4vw;
+}
 #intro {
   background: url('../img/home.jpg') no-repeat center top;
   -webkit-background-size: cover;
@@ -1162,21 +1172,12 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel .owl-theme .owl-controls .owl-page:hover span {
   background: #fff;
 }
-@media (max-width: 767px) {
-  .home-carousel {
-    text-align: center !important;
-  }
-}
 .home-carousel h1,
 .home-carousel h2,
 .home-carousel h3,
 .home-carousel p,
 .home-carousel ul {
   color: #000;
-}
-.home-carousel h1 {
-  font-weight: 700;
-  text-transform: uppercase;
 }
 @media (max-width: 991px) {
   .home-carousel h1 {
@@ -3135,7 +3136,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: Noto Sans Japanese,Arial,sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
@@ -3347,7 +3348,6 @@ h6,
 .h5,
 .h6 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 900;
   line-height: 1.1;
   color: #333333;
 }
