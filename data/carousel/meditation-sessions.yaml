@@ -1,7 +1,0 @@
-weight: 3
-title: "Regular activities"
-description: >
-  <ul class="list-style-none">
-    <li>Meditation and mindfulness sessions and workshops for all employees. <a href="{{ .Site.BaseURL }}/schedule/">Join us</a></li>
-  </ul>
-image: "img/carousel/meeting-room.png"
