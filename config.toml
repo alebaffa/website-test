@@ -66,6 +66,7 @@ paginate = 10
     contentDir = "content/en"
     weight = 1
     languageName = "English"
+    baseURL = "https://determined-rosalind-5069a3.netlify.com/"
 
     [languages.en.menu]
     # Main menu
@@ -112,6 +113,7 @@ paginate = 10
     contentDir = "content/jp/"
     weight = 2
     languageName = "Japanese"
+    baseURL = "https://determined-rosalind-5069a3.netlify.com/jp"
 
     [languages.jp.menu]
     
