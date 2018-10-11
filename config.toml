@@ -1,0 +1,178 @@
+# <------ START OF HUGO GENERAL SETTINGS ------>
+
+baseurl = "/"
+title = "Rakuten Mindfulness Network"
+theme = "hugo-universal-theme"
+
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-116203288-2"
+
+# Define the number of posts per page
+paginate = 10
+
+# <------ START OF THEME SPECIFIC SETTINGS ------>
+
+[params]
+    subtitle = "Uplifting work and life of Rakutenians through mindfulness-based approaches"
+    author = "Udana Bandara - Alessandro Baffa"
+    defaultKeywords = ["rakuten", "mindfulness", "meditation", "rakuten-mindfulness", "wellbeing"]
+    defaultDescription = "Rakuten Mindfulness Network is a company-supported, employee-driven initiative for promoting wellbeing among the employees through mindfulness-based approaches. We organize workshops, lectures, group meditation sessions, collaborative research studies, invited talks and various community activities."
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "red"
+    about_us = "<p>We are the Rakuten Mindfulness Network</p>"
+    copyright = "Copyright (c) 2018, Rakuten; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+    logosns = "http://www.rakuten-mindfulness.org/img/logo-sns.png"
+    address = "Rakuten Crimson House, <br /> Tamagawa 1-14-1, Setagaya-ku, Tokyo 158-0094, JAPAN"
+
+[Permalinks]
+    blog = "/news/:year/:month/:day/:filename/"
+
+[params.carousel]
+    enable = true
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at '/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at '/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Testimonials"
+    subtitle = ""
+
+[params.media]
+    enable = true
+    title = "Media Mentions"
+
+[params.recent_posts]
+    enable = true
+
+[languages]
+
+  [languages.en]
+    contentDir = "content/en"
+    weight = 1
+    languageName = "English"
+
+    [languages.en.menu]
+    # Main menu
+
+    [[languages.en.menu.main]]
+        name = "Home"
+        identifier = "home"
+        url  = "/"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "About"
+        identifier = "about"
+        url  = "/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "News"
+        url  = "/news/"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Contact"
+        url  = "/contact/"
+        weight = 6
+
+    [[languages.en.menu.main]]
+        name = "Media"
+        url  = "/media/"
+        weight = 4
+
+    [[languages.en.menu.main]]
+        name = "Events"
+        url  = "/schedule/"
+        weight = 5
+
+ # COMMENT THE FOLLOWING 4 LINES TO DISEABLE JAPANESE LANGUAGE IN THE MENU   
+   #[[languages.en.menu.main]]
+      # name = "日本語"
+      # url  = "/jp/"
+      # weight = 7
+
+[languages.jp]
+    contentDir = "content/jp/"
+    weight = 2
+    languageName = "Japanese"
+
+    [languages.jp.menu]
+    
+    # Main menu
+    [[languages.jp.menu.main]]
+        name = "ホーム"
+        identifier = "home"
+        url  = "/"
+        weight = 1
+
+    [[languages.jp.menu.main]]
+        name = "私達について"
+        identifier = "about"
+        url  = "/jp/about/"
+        weight = 2
+
+    [[languages.jp.menu.main]]
+        name = "ニュース"
+        url  = "/jp/news/"
+        weight = 3
+
+    [[languages.jp.menu.main]]
+        name = "メディア掲載"
+        url  = "/jp/media/"
+        weight = 4
+
+    [[languages.jp.menu.main]]
+        name = "イベント"
+        url  = "/jp/schedule/"
+        weight = 5
+
+    [[languages.jp.menu.main]]
+        name = "お問い合わせ"
+        url  = "/jp/contact/"
+        weight = 6
+
+    [[languages.jp.menu.main]]
+        name = "English"
+        url  = "/"
+        weight = 7
+
+    [languages.jp.params.see_more]
+        enable = false
+        icon = "fa fa-file-code-o"
+        title = "Confluence"
+        subtitle = "社内コンテンツ"
+        link_url = "https://confluence.rakuten-it.com/confluence/display/RMN/"
+        link_text = "Join"
+
+    [languages.jp.params.see_more_2]
+        enable = false
+        icon_2 = "fa fa-file-code-o"
+        title_2 = "Facebook"
+        subtitle_2 = "フェースブックでフォロー"
+        link_url_2 = "https://www.facebook.com/rakutenmindfulness/"
+        link_text_2 = "Follow"
+
+    [languages.jp.params.see_more_3]
+        enable = false
+        icon_3 = "fa fa-file-code-o"
+        title_3 = "Membership"
+        subtitle_3 = "社員登録"
+        link_url_3 = "https://forms.office.com/Pages/ResponsePage.aspx?id=2bCoUwDZzEidflk13I1bF8Fwse-CEctDt39AX8Zug0NUODhCWjFBWFoxWEhXSVFJVlZXTlZONUhQUy4u"
+        link_text_3 = "Join"

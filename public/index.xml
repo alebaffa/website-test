@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rakuten Mindfulness Network</title>
+    <link>/</link>
+    <description>Recent content on Rakuten Mindfulness Network</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 20 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Core member interview: Alessandro Baffa</title>
+      <link>/news/alessandro-interview/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/news/alessandro-interview/</guid>
+      <description>1. How did you first hear of “Mindfulness”? I first heard about Mindfulness some years ago on the social networks, following a French entrepreneur based in Silicon Valley, Loic Le Meur. He was talking a lot about it and how much this practice was spreading not only in the startups ecosystem, but also among a lot of very well known CEOs across the globe. I was so impressed when I discovered that there also are meditation sessions organized at the World Economic Forum, every year.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Rakuten Mindfulness Network is open to collaborations with academia, thought leaders, and companies innovating in the field of mindfulness-based corporate wellbeing. We are particularly eager to partner with academia through research in collaboration with Rakuten Institute of Technology (RIT) on topics such as measuring mindfulness, role of mindfulness in organizational behavior, and workplace wellbeing. If you are interested in these topics please let us know. You can contact us by email here：rakuten-mindfulness at mail.</description>
+    </item>
+    
+    <item>
+      <title>Event schedule</title>
+      <link>/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/schedule/</guid>
+      <description>Upcoming events   Here is the calendar of Mindfulness Network events for Rakuten employees      </description>
+    </item>
+    
+    <item>
+      <title>Media mentions</title>
+      <link>/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who We Are</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Who We Are   Rakuten Mindfulness Network (RMN) is a company-supported, employee-driven community established in July, 2017. We aspires to uplift the quality of work and life of Rakuten employees through mindfulness-based approaches. Currently, more than 800 Rakuten employees have participated in our activities. The core members who volunteer their time and talent to provide these services are also Rakuten employees. The core members are mindfulness practitioners who have benefited from their mindfulness practice.</description>
+    </item>
+    
+  </channel>
+</rss>
