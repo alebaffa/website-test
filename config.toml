@@ -103,10 +103,10 @@ paginate = 10
         weight = 5
 
  # COMMENT THE FOLLOWING 4 LINES TO DISEABLE JAPANESE LANGUAGE IN THE MENU   
-   #[[languages.en.menu.main]]
-      # name = "日本語"
-      # url  = "/jp/"
-      # weight = 7
+[[languages.en.menu.main]]
+    name = "日本語"
+    url  = "/jp"
+    weight = 7
 
 [languages.jp]
     contentDir = "content/jp/"
@@ -119,33 +119,33 @@ paginate = 10
     [[languages.jp.menu.main]]
         name = "ホーム"
         identifier = "home"
-        url  = "/jp/"
+        url = "/"
         weight = 1
 
     [[languages.jp.menu.main]]
         name = "私達について"
         identifier = "about"
-        url  = "/jp/about/"
+        url = "/jp/about"
         weight = 2
 
     [[languages.jp.menu.main]]
         name = "ニュース"
-        url  = "/jp/news/"
+        url = "/jp/news"
         weight = 3
 
     [[languages.jp.menu.main]]
         name = "メディア掲載"
-        url  = "/jp/media/"
+        url = "/jp/media"
         weight = 4
 
     [[languages.jp.menu.main]]
         name = "イベント"
-        url  = "/jp/schedule/"
+        url = "/jp/schedule"
         weight = 5
 
     [[languages.jp.menu.main]]
         name = "お問い合わせ"
-        url  = "/jp/contact/"
+        url = "/jp/contact"
         weight = 6
 
     [[languages.jp.menu.main]]
