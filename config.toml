@@ -119,7 +119,7 @@ paginate = 10
     [[languages.jp.menu.main]]
         name = "ホーム"
         identifier = "home"
-        url  = "/jp"
+        url  = "/jp/"
         weight = 1
 
     [[languages.jp.menu.main]]
